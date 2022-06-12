@@ -1,22 +1,9 @@
-import { StyleSheet, StatusBar, Platform, View, Text } from "react-native";
-import AppText from "./app/components/AppText";
-
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-// import WelcomeScreen from "./app/screens/WelcomeScreen";
-// import ViewImageScreen from "./app/screens/ViewImageScreen";
+import { View } from "react-native";
+import AppButton from "./app/components/AppButton";
+import WelcomeScreen from "./app/screens/WelcomeScreen";
 
 export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <AppText>I love react native</AppText>
-    </View>
-  );
+  return <WelcomeScreen />;
 }
 
 // const styles = StyleSheet.create({

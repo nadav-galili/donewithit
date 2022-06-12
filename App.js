@@ -1,5 +1,7 @@
 import { StyleSheet, StatusBar, Platform, View, Text } from "react-native";
 import AppText from "./app/components/AppText";
+
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 // import WelcomeScreen from "./app/screens/WelcomeScreen";
 // import ViewImageScreen from "./app/screens/ViewImageScreen";
 
@@ -12,9 +14,7 @@ export default function App() {
         alignItems: "center",
       }}
     >
-      <AppText>
-        I love react app this is my first react native line heres some more text
-      </AppText>
+      <AppText>I love react native</AppText>
     </View>
   );
 }
